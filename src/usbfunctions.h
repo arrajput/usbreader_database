@@ -351,7 +351,7 @@ string read_address_from_file(string filename, string paramname){
   char name[256];
   float value;
 
-  while( EOF != fscanf(pFile, "%s %e", name, &value) ){
+  while( EOF != fscanf(pFile, "%s  %e", name, &value) ){
 
     if( paramname.compare(name) == 0 ){
       string address;

@@ -183,6 +183,8 @@ int main(int argc, char *argv[]){
 
   fill_channel_names();
 
+  cout<<"about to create table"<<endl;
+  
   command = "CREATE TABLE " + board_name + " ("			\
     "db_entry    int  NOT NULL PRIMARY KEY,"						\
     "packet_number    int,"						\

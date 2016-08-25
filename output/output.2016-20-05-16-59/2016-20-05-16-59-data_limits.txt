@@ -1,4 +1,0 @@
- mintime 1.48382e+06
- maxtime 1.48383e+06
- minpn 1e+17
- maxpn 0
