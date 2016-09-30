@@ -1,7 +1,6 @@
 # Makefile for DAQ
 CXX    := clang++
-# GXX    := CC
-GXX    := cc
+GXX    := CC
 CFLAGS := -g -O3 -std=c++11 -I. -I/usr/local/include -I/usr/include/root
 LFLAGS := -g -L. -L/usr/local/lib -L/usr/lib/i386-linux-gnu -L/physics/ROOT/v5-34-18/lib -lstdc++ -lz -lusb-1.0 -lusb -lm -lc -lGui -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic 
 PFLAGS := -lpqxx -lpq
